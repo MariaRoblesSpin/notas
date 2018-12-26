@@ -16,27 +16,27 @@ git config --global core.editor "notepad" (Windows)
 
 ## Comparaciones
 
-* Working area vs. Staging area
+### Working area vs. Staging area
 ```
 git diff
 ```
-* Staging area vs. repository
+### Staging area vs. repository
 ```
 git diff --staged
 ```
-* Working area vs. repository
+### Working area vs. repository
 ```
 git diff HEAD
 ```
 
 ## Guardar los cambios
 
-* Para ver nuestro espacio de trabajo:
+### Para ver nuestro espacio de trabajo:
 ```
 git status
 ```
 
-* Añadir archivos, carpetas o extensiones a la staging area:
+### Añadir archivos, carpetas o extensiones a la staging area:
 ```
 git add <nombre-del-archivo>
 git add <nombre-de-la-carpeta>
@@ -44,7 +44,7 @@ git add *.<extensión-archivos>
 git add * (añade todos los archivos de la carpeta)
 ```
 
-* Añadir cambios al repositorio:
+### Añadir cambios al repositorio:
 ```
 git commit
 ```
@@ -54,7 +54,7 @@ Salta el editor de texto para que añadas un mensaje extenso que explique el com
 git commit -m "mensaje en un línea para explicar el commit"
 ```
 
-* Para ver el conjunto de los commits con el SHA1 en versión abreviada:
+### Para ver el conjunto de los commits con el SHA1 en versión abreviada:
 ```
 git log --oneline
 ```
@@ -62,33 +62,33 @@ git log --oneline
 
 ## Deshacer
 
-* Deshacer el último commit y dejar el área de trabajo como está.
+### Deshacer el último commit y dejar el área de trabajo como está.
 ```
 git reset HEAD~1
 ```
 ~1 hace referencia a que retrocede un único commit. De ese número depende los pasos atrás en los commits.
 
-* Deshacer el último commit y quitar también los cambios en el área de trabajo (se pierden los cambios).
+### Deshacer el último commit y quitar también los cambios en el área de trabajo (se pierden los cambios).
 ```
 git reset --hard HEAD~1
 ```
-* Para desechar los cambios de un archivo y volver al estado del commit anterior:
+### Para desechar los cambios de un archivo y volver al estado del commit anterior:
 ```
 git checkout -- <nombre-del-archivo>
 ```
-* Para movernos a una etiqueta
+### Para movernos a una etiqueta
 ```
 git reset <nombre-del-tag>
 ```
 
 ## Tags (Para versiones)
 
-* Crear tag:
+### Crear tag:
 ```
 git tag <nombre-del-tag>
 ```
 
-* Borrar tag:
+### Borrar tag:
 ```
 git tag -d <nombre-del-tag>
 ```
