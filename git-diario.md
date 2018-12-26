@@ -113,3 +113,7 @@ git checkout -b <nombre-de-la-rama>
 ```
 git checkout <nombre-de-la-rama>
 ```
+### Renombrar ramas
+```
+git branch -m <nombre-de-la-rama-antigua> <nombre-de-la-rama-nueva>
+```
