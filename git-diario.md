@@ -99,4 +99,17 @@ git reflog
 ```
 Muestra un listado de todos los commits registrados y todo el movimiento entre ellos.
 
+## Ramas
 
+### Para crear una rama pero no moverte a ella
+```
+git branch <nombre-de-la-rama>
+```
+### Para crear una rama y moverte a ella
+```
+git checkout -b <nombre-de-la-rama>
+```
+### Para moverte a una rama
+```
+git checkout <nombre-de-la-rama>
+```
