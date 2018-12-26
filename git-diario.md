@@ -109,11 +109,46 @@ git branch <nombre-de-la-rama>
 ```
 git checkout -b <nombre-de-la-rama>
 ```
-### Para moverte a una rama
+### Para moverte a una rama, a un commit, a un tag
 ```
 git checkout <nombre-de-la-rama>
+git checkout <codigo-del-commit>
+git checkout <nombre-del-tag>
 ```
 ### Renombrar ramas
 ```
 git branch -m <nombre-de-la-rama-antigua> <nombre-de-la-rama-nueva>
+```
+### Borrar ramas
+```
+git branch -D <nombre-de-la-rama>
+```
+### Recuperar commit y rama
+```
+git reflog
+git checkout <codigo-commit-elegido>
+git checkout -b <nombre-rama>
+```
+## Merge (unir/absorber/mezclar ramas)
+
+### Merge fastforward
+Estando en rama01 sólo cambia el puntero a rama02. Los commits de ambas ramas tienen que conformar una única lista.
+```
+git merge <rama02>
+```
+### Merge no fastforward
+```
+git merge --no-ff <rama02>
+```
+Crea un nuevo commit que apunta a los dos últimos commit de las dos ramas mezcladas.
+Cuando hay cambios en las dos ramas desde la separación el sistema exige un commit para hacer el merge.
+
+## Crear comandos personalizados
+```
+git config alias.nombre-comando "secuencia de comandos sin el git entre comillas"
+```
+Por ejemplo uno para ver el graph de los logs:
+
+```
+git config alias.graph "log --graph --oneline --decorate --pretty"
 ```
