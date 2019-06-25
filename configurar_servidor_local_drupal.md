@@ -53,4 +53,5 @@
           ErrorLog "logs/dummy-host2.example.com-error.log"
           CustomLog "logs/dummy-host2.example.com-access.log" common
       </VirtualHost>
-Comprobar el nombre-del-sitio en la url del navegador (debería estar ya funcionando).
+
+**Comprobar el nombre-del-sitio en la url del navegador (debería estar ya funcionando).**
