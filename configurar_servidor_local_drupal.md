@@ -44,13 +44,13 @@
         ),
       );  
       
-   - Windows/System32/drivers/etc/hosts: 127.0.0.1  nombre-del-sitio
-   - xampp/apache/conf/extra/httpd-vhosts.conf:
-       <VirtualHost *:80>
-            ServerAdmin webmaster@dummy-host2.example.com
-            DocumentRoot "C:/xampp/htdocs/nombre-carpeta-en-htdocs"
-            ServerName nombre-del-sitio
-            ErrorLog "logs/dummy-host2.example.com-error.log"
-            CustomLog "logs/dummy-host2.example.com-access.log" common
-        </VirtualHost>
+- Windows/System32/drivers/etc/hosts: 127.0.0.1  nombre-del-sitio
+- xampp/apache/conf/extra/httpd-vhosts.conf:
+     <VirtualHost *:80>
+          ServerAdmin webmaster@dummy-host2.example.com
+          DocumentRoot "C:/xampp/htdocs/nombre-carpeta-en-htdocs"
+          ServerName nombre-del-sitio
+          ErrorLog "logs/dummy-host2.example.com-error.log"
+          CustomLog "logs/dummy-host2.example.com-access.log" common
+      </VirtualHost>
 Comprobar el nombre-del-sitio en la url del navegador (debería estar ya funcionando).
