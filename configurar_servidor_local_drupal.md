@@ -27,7 +27,7 @@
     - Opciones específicas del formato: desmarcar checkbox.
  - Copiar la carpeta de drupal en la carpeta htdocs:
  - Nombre-carpeta/sites/default/settings.php
-   - base-url: '' (con el valor vacío)
+   - base-url: 'http://localhost' (nunca con el valor vacío, porque aparece el error: Undefined Offset 1 in bootstrap.inc y no muestra el contenido de las páginas de contenido).
    - $databases = array (
         'default' => 
         array (
