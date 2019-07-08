@@ -16,7 +16,7 @@
   - innodb_lock_wait_timeout = 5000
 - Configurar desde el control el php.ini => apache/config/php.ini
   - upload_max_filesize=200M (por defecto el valor está en 2: Poner un valor mayor al tamaño del archivo que se desea importar).
-- En Xampp/phoMyAdmin/libraries/config.default.php poner $cfg['ExecTimeLimit'] = 0;
+- En Xampp/phpMyAdmin/libraries/config.default.php poner $cfg['ExecTimeLimit'] = 0;
 - Importar base de datos: 
   - Crear base de datos en phpMyAdmin: nombre y codificación (cuidado con la codificación que puede producir muchos errores).
   - Importar base de datos: 
