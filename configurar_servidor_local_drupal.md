@@ -74,3 +74,6 @@ Descargar actualizaciones e instalarlas.
 Extend/Multilingual install los módulos Configuration translation, content translation, Language, Interface Tranlation
 
 Install new modules: language icons (para poner las banderas en el menú de idiomas)
+Enable newly added modules.
+
+
