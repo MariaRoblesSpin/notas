@@ -57,10 +57,20 @@
 
 **Comprobar el nombre-del-sitio en la url del navegador (debería estar ya funcionando).**
 
-Instalar la plantilla bizreview para Drupal 8.
+## Instalar la plantilla bizreview para Drupal 8.
 
 - Instalar todo el contenido de la plantilla en la carpeta de la web dentro de htdocs en el xampp.
 - Sustituir la plantilla por la verisón 1.1 y volver a importar la base de datos. Sustotuir todos los archivos del core de la última versión de drupal compatible con esa base de datos (drupal 8.7.4): carpetas core, profiles y vendor y todos los archivos que están en el raíz de la carpeta.
 - Seguir el instalador de drupal.
 
 **Comprobar el nombre-del-sitio en la url del navegador (debería estar ya funcionando).**
+
+## Actualizar módulos en drupal
+
+Descargar actualizaciones e instalarlas.
+
+## Configurar el idioma
+
+Extend/Multilingual install los módulos Configuration translation, content translation, Language, Interface Tranlation
+
+Install new modules: language icons (para poner las banderas en el menú de idiomas)
